@@ -1,0 +1,118 @@
+body{
+    margin: 0 auto;
+    font-family: 'Arial (Hebrew)', Arial;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+header {
+    height: 105px;
+    background: linear-gradient(to bottom, rgb(144,144,144) 90%, rgb(170, 170, 170));
+  }
+
+footer{
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(144,144,144) 90%, rgb(170, 170, 170));
+
+}
+footer>a{
+    color:white;
+}
+#arangmentlink{
+    color:red;
+}
+
+  nav {
+    font-family:  'Arial (Hebrew)', Arial;
+  }
+  
+  nav > ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav > ul > li {
+    display: inline-block;
+  }
+  nav>ul>li>a, header>nav>a, header>nav>form>a{
+    color:white;
+    font-size: 14px;
+    text-decoration: none;
+} 
+  .dropdown > .dropdown-content>a{
+      color:white;
+      margin-top: 5px;
+      font-size: 12px;
+  } 
+
+  nav > ul > li > a, .dropdown-content > a { 
+    
+    text-decoration: none;
+    display: block;
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+       
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown:hover > .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown > .dropdown-content {
+    position: absolute;
+    top: 100%;
+    background-color:white;
+    width: 200px;
+    display: none;
+        
+  }
+
+  nav > ul > li > a:hover, .dropdown-content > a:hover, .dropdown:hover > a, header>nav>form>a:hover {
+    /* background-color: Green; */
+    color: #005CA0;
+    text-decoration: underline;
+  }
+
+  #pazlogo{
+      margin-bottom:30px;
+  }
+
+  #sec1>div{
+      float:left;
+      width: 33%;
+      text-align: center;
+  }
+
+  #sec1>div:first-child{
+    padding-left:15px;
+}
+/* #sec1>div:first-child{
+    margin-left:288px;
+    padding-right:7px;
+}
+#sec1>div:nth-child(2){
+    padding-right:7px;
+    padding-left: 7px;
+}
+#sec1>div:last-child{
+    padding-right:7px;
+    padding-left: 7px;
+
+} */
+
+  #sec2>div{
+    float:left;
+}
+
