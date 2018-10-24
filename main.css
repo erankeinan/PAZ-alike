@@ -1,6 +1,10 @@
 body{
     margin: 0 auto;
     font-family: 'Arial (Hebrew)', Arial;
+    direction:rtl;
+    text-align:right;
+    box-sizing: border-box;
+
 }
 
 .clearfix::after {
@@ -15,6 +19,15 @@ header {
     background: linear-gradient(to bottom, rgb(144,144,144) 90%, rgb(170, 170, 170));
   }
 
+.page{
+   width: 900px;
+   margin: 0 auto;
+}
+
+#f1{
+    direction:ltr;
+	text-align:left;   
+}
 footer{
     position:fixed;
     bottom:0;
@@ -73,7 +86,7 @@ footer>a{
   .dropdown > .dropdown-content {
     position: absolute;
     top: 100%;
-    background-color:white;
+    background:  rgb(144,144,144) ;
     width: 200px;
     display: none;
         
@@ -90,27 +103,41 @@ footer>a{
   }
 
   #sec1>div{
-      float:left;
+      float:right;
       width: 33%;
       text-align: center;
+      margin-top: 31px;
+      margin-bottom: 12px;
+        
   }
-
   
-/* #sec1>div:first-child{
-    margin-left:288px;
-    padding-right:7px;
-}
-#sec1>div:nth-child(2){
-    padding-right:7px;
-    padding-left: 7px;
-}
-#sec1>div:last-child{
-    padding-right:7px;
-    padding-left: 7px;
-
-} */
-
   #sec2>div{
-    float:left;
+    float:right;
+    width: 33%;
+    text-align: center;
+    border: 1px solid #DBDBDB;
+
+}
+#sec1>div>img{
+    border-bottom-right-radius: 25px;
+}
+
+/* #d1{
+    background-image: url("./images/rightpic.JPG");
+}
+#d2{
+    background-image: url("paper.gif");
+}
+#d3{
+    background-image: url("paper.gif");
+} */
+#d4{
+    background-image: url("paper.gif");
+}
+#d5{
+    background-image: url("paper.gif");
+}
+#d6{
+    background-image: url("paper.gif");
 }
 

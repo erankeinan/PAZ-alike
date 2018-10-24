@@ -10,78 +10,94 @@
 </head>
 <body>
     <header>
-        <nav>
-            <form>
-                <button type="submit" onclick="search()"><img src="./images/search_button.png"></button>
-                <input type="search" id="pazsearch" placeholder="Search..">
-                <a href="#">English</a>
-            </form>
-            
-            <ul>
-                <li class="dropdown"><a href="#">חדשות ומדיה</a>
-                    <div class="dropdown-content">
-                        <a href="#"></a>
-                        <a href="#"></a>
-                        <a href="#"></a>
-                        <a href="#"></a>
-                    </div>
-                </li>
-                <li class="dropdown"><a href="#">קריירה</a>
-                    <div class="dropdown-content">
-                        <a href="#"></a>
-                        <a href="#"></a>
-                        <a href="#"></a>
-                        <a href="#"></a>
-                    </div>
-                </li>
-                <li><a href="#">התחנות שלנו</a></li>
-                <li><a href="#">קשרי משקיעים</a> </li>
-                <li><a href="#">אחריות תאגידית</a></li>
-                <li><a href="#">חטיבות</a></li>
-                <li><a href="#">אודות</a></li>
-                <li><a href="#"><img src="./images/menu_home.png"></a></li>
-                <!-- <li> <img id="pazlogo" src="./images/paz_logo.png"></li> -->
-            </ul>
-            
-          </nav>
+        <div class="page">
+            <nav>
+                <form id = "f1">
+                    <button type="submit" onclick="search()"><img src="./images/search_button.png"></button>
+                    <input type="search" id="pazsearch" placeholder="Search..">
+                    <a href="#">English</a>
+                </form>
+                
+                <ul>
+                    <li><a href="#"><img src="./images/menu_home.png"></a></li>
+                    <li class="dropdown"><a href="#">אודות</a>
+                        <div class="dropdown-content">
+                            <a href="#">אודות</a>
+                            <a href="#">היסטוריה</a>
+                            <a href="#">חזון וערכים</a>
+                            <a href="#">מבנה הקבוצה</a>
+                            <a href="#">חברי דירקטוריון</a>
+                            <a href="#">הנהלת הקבוצה</a>
+                            <a href="#">פרסים והוקרה</a>
+                        </div>
+                    </li>
+                    <li class="dropdown"><a href="#">חטיבות</a>
+                        <div class="dropdown-content">
+                            <a href="#">חטיבות</a>
+                            <a href="#">קמעונאות ומסחר</a>
+                            <a href="#">תעשיות ושירותים</a>
+                            <a href="#">זיקוק </a>
+                        </div>
+                    </li>
+                    <li><a href="#">אחריות תאגידית</a>
+                        <div class="dropdown-content">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                    </li>
+                    <li><a href="#">קשרי משקיעים</a> </li>
+                    <li><a href="#">התחנות שלנו</a></li>
+                    <li><a href="#">קריירה</a></li>
+                    <li><a href="#">חדשות ומדיה</a></li>
+                    <!-- <li> <img id="pazlogo" src="./images/paz_logo.png"></li> -->
+                </ul>
+                
+            </nav>
+        </div>
     </header>
     <main>
-        <div id="sec1" class = "clearfix">
-                <div>
-                        <img src="./images/leftpic.jpg">
-                </div>
-                <div>
-                        <img src="./images/midpic.jpg">
-                </div>
-                <div>
-                        <img src="./images/rightpic.JPG">
-                </div>
-        </div>
+        <div class="page">
+            <div id="sec1" class = "clearfix">
+                    <div id="d1">
+                            <img src="./images/rightpic.JPG">
+                    </div>
+                    <div id="d2">
+                            <img src="./images/midpic.jpg">
+                    </div>
+                    <div id="d3">
+                            <img src="./images/leftpic.jpg">
+                    </div>
+            </div>
 
-        <div id="sec2" class="clearfix">
-                <div>
-            
-                </div>
-                <div>
-        
-                </div>
-                <div>
-    
-                </div>
+            <div id="sec2" class="clearfix">
+                    <div id="d4" class="banner">
+                        <p>כרטיס אשראי שופרסל וכרטיס אשראי יש</p>
+                        <img src="./images/paz_250x110059890678.jpg">
+                    </div>
+                    <div id="d5" class="banner">
+                        <p>yellow click&pick;</p>
+                        <img src="./images/paz_250x110103131473.jpg">
+                    </div>
+                    <div id="d6" class="banner"> 
+                        <p>התחנות שלנו בדרך שלך</p>
+                        <img src="./images/Untitled-3058756287.jpg">
+                    </div>
+            </div>
         </div>
-        
     </main>
     <footer>
-        <a id="arangmentlink" href="#">הסדר פשרה בתובענה הייצוגית בעניין הסדר פזומט</a>
-        <a href="#">שטחי מסחר</a>
-        <a href="#">צור קשר</a>
-        <a href="#">מפת אתר</a>
-        <a href="#">נגישות</a>
-        <a href="#">תנאי שימוש</a>
-        <a href="#">קריירה</a>
-        <a href="#">מחירונים</a>
-        <a href="#">עמוד הבית</a>
-        <a href="http://www.facebook.com/YellowPaz"><img src="./images/fb_icon.png"></a>
+        <div class="page">
+            <a href="http://www.facebook.com/YellowPaz"><img src="./images/fb_icon.png"></a>
+            <a href="#">עמוד הבית</a>
+            <a href="#">מחירונים</a>
+            <a href="#">קריירה</a>
+            <a href="#">תנאי שימוש</a>
+            <a href="#">נגישות</a>
+            <a href="#">מפת אתר</a>
+            <a href="#">צור קשר</a>
+            <a href="#">שטחי מסחר</a>
+            <a id="arangmentlink" href="#">הסדר פשרה בתובענה הייצוגית בעניין הסדר פזומט</a>        
+        </div>
     </footer>
 
 
