@@ -19,62 +19,98 @@ header {
     background: linear-gradient(to bottom, rgb(144,144,144) 90%, rgb(170, 170, 170));
   }
 
-.page{
-   width: 900px;
-   margin: 0 auto;
+nav{
+    position: relative;
 }
 
 #f1{
     direction:ltr;
-	text-align:left;   
+    text-align:left;  
+    position: absolute;
+    top:0;
+    left:0; 
 }
+
+
+#f1>*{
+    display: inline-block;
+} 
+
 footer{
     position:fixed;
     bottom:0;
     width: 100%;
-    background: linear-gradient(to bottom, rgb(144,144,144) 90%, rgb(170, 170, 170));
+    background: linear-gradient(to bottom, rgb(170, 170, 170), rgb(144,144,144) 10% );
+    line-height: 38px;
+    margin:0;
 
 }
-footer>a{
+
+.page{
+    width: 900px;
+    margin: 0 auto;
+ }
+.page>a{
+    font-weight: normal;
     color:white;
+    text-decoration: none;
+    font-size: 15px;
+
 }
+
 #arangmentlink{
     color:red;
 }
 
+
   nav {
     font-family:  'Arial (Hebrew)', Arial;
+    font-size: 15px;
   }
   
   nav > ul {
     list-style: none;
     padding: 0;
+    margin:0;
+    padding-right: 10px;
   }
   
   nav > ul > li {
     display: inline-block;
+    /* border-left: 1px solid #DBDBDB; */
   }
+
+  nav > ul > li:last-child {
+    border-left: none;
+  }
+
   nav>ul>li>a, header>nav>a, header>nav>form>a{
-    color:white;
-    font-size: 14px;
     text-decoration: none;
 } 
-  .dropdown > .dropdown-content>a{
+nav>ul>li>a{
       color:white;
-      margin-top: 5px;
-      font-size: 12px;
+      /* margin-top: 5px; */
+      font-size: 15px;
+      font-weight: 600;
+
   } 
 
-  nav > ul > li > a, .dropdown-content > a { 
+  nav > ul > li > a { 
     
     text-decoration: none;
     display: block;
-    padding-top:15px;
-    padding-bottom: 15px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-bottom: 9px; 
+    
   }
-       
+   .dropdown-content > a { 
+    
+    text-decoration: none;
+    color:white;
+    font-weight: 600;
+    display: block;
+    padding: 5px;
+  }
+            
   .dropdown {
     position: relative;
   }
@@ -86,21 +122,31 @@ footer>a{
   .dropdown > .dropdown-content {
     position: absolute;
     top: 100%;
-    background:  rgb(144,144,144) ;
-    width: 200px;
-    display: none;
-        
+    /* background:  rgb(144,144,144) ; */
+    background: linear-gradient(to bottom, rgb(170, 170, 170), rgb(144,144,144) 70% );
+    display: none;        
   }
 
   nav > ul > li > a:hover, .dropdown-content > a:hover, .dropdown:hover > a, header>nav>form>a:hover {
-    /* background-color: Green; */
     color: #005CA0;
     text-decoration: underline;
   }
+  .dropdown-content > a:hover{
+    background: #BCBCBC ;
+  }
 
   #pazlogo{
-      margin-bottom:30px;
+      position: relative;
+      top:35px;
   }
+ 
+  span{
+    /* padding: 10px; */
+    color: white;
+    }
+    nav>ul>li>span{
+        color: #F8F8F8;;  
+    }
 
   #sec1>div{
       float:right;
@@ -115,29 +161,88 @@ footer>a{
     float:right;
     width: 33%;
     text-align: center;
-    border: 1px solid #DBDBDB;
+    background-image: url("./images/small_cube_bg.png");      
+
+    }
+
+#sec2>div>p{
+    text-align: right;
 
 }
+
 #sec1>div>img{
+    border-bottom-right-radius: 25px;
+    /* padding-left: 24px;
+    padding-right: 24px; */
+}
+h3{
+    font-size:14px;
+}
+
+.int-d{
+    direction:rtl;
+    text-align:right;
+    position:absolute;
+    bottom:7px;
+    right:7px;
+    background: rgb(170, 170, 170);
+    font-size: 13px;
     border-bottom-right-radius: 25px;
 }
 
-/* #d1{
-    background-image: url("./images/rightpic.JPG");
+.int-d>a{
+    text-align:left;
 }
-#d2{
-    background-image: url("paper.gif");
+
+#d1{
+    position:relative;
 }
-#d3{
-    background-image: url("paper.gif");
-} */
+
+
 #d4{
-    background-image: url("paper.gif");
+    /* background-image: url("paper.gif"); */
+    /* border-top-right-radius: 25px; */
 }
 #d5{
-    background-image: url("paper.gif");
+    /* border-top-right-radius: 25px; */
+
 }
-#d6{
-    background-image: url("paper.gif");
+
+.banner{
+    padding: 0 24px;
+    text-align: right;
+
+}
+
+#d61{
+float:left;
+}
+#d62{
+    float:right;
+    font-size: 13px;
+    padding-right:5px;
+    }
+#d62>a{
+    display:block;
+
+}
+
+#d62>a>span{
+margin:0;
+padding:0;
+color:black;
+float:right;
+}
+#d62>a>img{
+    float:left;
+    margin:0;
+    padding-top:4px;
+    padding-right:5px;
+
+}
+
+.link{
+    direction:ltr;
+	text-align:left;   
 }
 

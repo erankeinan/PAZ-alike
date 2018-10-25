@@ -13,45 +13,80 @@
         <div class="page">
             <nav>
                 <form id = "f1">
-                    <button type="submit" onclick="search()"><img src="./images/search_button.png"></button>
-                    <input type="search" id="pazsearch" placeholder="Search..">
+                    <a href="#" type="submit" onclick="search()"><img src="./images/search_button.png"></a>
+                    <div><input type="search" id="pazsearch" placeholder="Search.."></div>
                     <a href="#">English</a>
-                </form>
-                
+                </form>                
                 <ul>
+                    <li> <img id="pazlogo" src="./images/paz_logo.png"></li>
                     <li><a href="#"><img src="./images/menu_home.png"></a></li>
+                    <li class="separtor"><span>|</span></li>
                     <li class="dropdown"><a href="#">אודות</a>
                         <div class="dropdown-content">
                             <a href="#">אודות</a>
                             <a href="#">היסטוריה</a>
-                            <a href="#">חזון וערכים</a>
-                            <a href="#">מבנה הקבוצה</a>
-                            <a href="#">חברי דירקטוריון</a>
-                            <a href="#">הנהלת הקבוצה</a>
-                            <a href="#">פרסים והוקרה</a>
+                            <a href="#">חזון&nbsp;וערכים</a>
+                            <a href="#">מבנה&nbsp;הקבוצה</a>
+                            <a href="#">חברי&nbsp;דירקטוריון</a>
+                            <a href="#">הנהלת&nbsp;הקבוצה</a>
+                            <a href="#">פרסים&nbsp;והוקרה</a>
                         </div>
                     </li>
+                    <li class="separtor"><span>|</span></li>
                     <li class="dropdown"><a href="#">חטיבות</a>
                         <div class="dropdown-content">
                             <a href="#">חטיבות</a>
-                            <a href="#">קמעונאות ומסחר</a>
-                            <a href="#">תעשיות ושירותים</a>
-                            <a href="#">זיקוק </a>
+                            <a href="#">קמעונאות&nbsp;ומסחר</a>
+                            <a href="#">תעשיות&nbsp;ושירותים</a>
+                            <a href="#">זיקוק</a>
                         </div>
                     </li>
-                    <li><a href="#">אחריות תאגידית</a>
+                    <li class="separtor"><span>|</span></li>
+                    <li class="dropdown"><a href="#">אחריות תאגידית</a>
                         <div class="dropdown-content">
-                            <a href="#"></a>
-                            <a href="#"></a>
+                            <a href="#">אחריות&nbsp;תאגידית</a>
+                            <a href="#">הקוד&nbsp;האתי</a>
+                            <a href="#">מעורבות&nbsp;חברתית</a>
+                            <a href="#">נגישות</a>
+                            <a href="#">איכות&nbsp;הסביבה&nbsp;ובטיחות</a>
+                            <a href="#">דירוג&nbsp;מעלה</a>
                         </div>
                     </li>
-                    <li><a href="#">קשרי משקיעים</a> </li>
-                    <li><a href="#">התחנות שלנו</a></li>
-                    <li><a href="#">קריירה</a></li>
-                    <li><a href="#">חדשות ומדיה</a></li>
-                    <!-- <li> <img id="pazlogo" src="./images/paz_logo.png"></li> -->
-                </ul>
-                
+                    <li class="separtor"><span>|</span></li>
+                    <li class="dropdown"><a href="#">קשרי משקיעים</a> 
+                        <div class="dropdown-content">
+                            <a href="#">פרופיל&nbsp;חברה</a>
+                            <a href="#">דו"חות&nbsp;כספיים</a>
+                            <a href="#">כלים&nbsp;למשקיע</a>
+                            <a href="#">נתוני&nbsp;מניה</a>
+                            <a href="#">אסיפות&nbsp;כלליות</a>
+                        </div>
+                    </li>
+                    <li class="separtor"><span>|</span></li>
+                    <li class="dropdown"><a href="#">התחנות שלנו</a>
+                        <div class="dropdown-content">
+                            <a href="#">התחנות&nbsp;שלנו</a>
+                            <a href="#">נגישות&nbsp;מתחמי&nbsp;פז</a>
+                            <a href="#">רשימת&nbsp;תחנות</a>
+                            <a href="#">מועדונים</a>
+                        </div>
+                    </li>
+                    <li class="separtor"><span>|</span></li>
+                    <li class="dropdown"><a href="#">קריירה</a>
+                        <div class="dropdown-content">
+                            <a href="#">לעבוד&nbsp;בפז</a>
+                            <a href="#">ניהול&nbsp;תחנת&nbsp;פז</a>
+                            <a href="#">קריירה</a>
+                        </div>
+                    </li>
+                    <li class="separtor"><span>|</span></li>
+                    <li class="dropdown"><a href="#">חדשות ומדיה</a>
+                        <div class="dropdown-content">
+                            <a href="#">פרסומות</a>
+                            <a href="#">הודעות&nbsp;לעיתונות</a>                            
+                        </div>
+                    </li>
+                </ul>                
             </nav>
         </div>
     </header>
@@ -60,6 +95,11 @@
             <div id="sec1" class = "clearfix">
                     <div id="d1">
                             <img src="./images/rightpic.JPG">
+                            <div class="int-d">
+                                <h3>קמעונאות ומסחר</h3>
+                                <p>במסגרת חטיבת הקו"מ של פז מתבצעת הפעילות הקמעונאית, הנדל"נית, והשיווקית של הקבוצה, שמתאפיינת בחדשנות, יעילות ומובילות. החטיבה פועלת...</p>
+                                <a href="#">קרא&nbsp;עוד</a>
+                            </div>
                     </div>
                     <div id="d2">
                             <img src="./images/midpic.jpg">
@@ -70,17 +110,34 @@
             </div>
 
             <div id="sec2" class="clearfix">
-                    <div id="d4" class="banner">
-                        <p>כרטיס אשראי שופרסל וכרטיס אשראי יש</p>
-                        <img src="./images/paz_250x110059890678.jpg">
+                    <div id="d4" >
+                        <div class="banner clearfix">
+                            <h3>כרטיס אשראי שופרסל וכרטיס אשראי יש</h3>
+                            <img src="./images/paz_250x110059890678.jpg">
+                            <div class= "link">
+                                <a  href="#">לפרטים&nbsp;נוספים</a>
+                            </div> 
+                        </div>                       
                     </div>
-                    <div id="d5" class="banner">
-                        <p>yellow click&pick;</p>
-                        <img src="./images/paz_250x110103131473.jpg">
+                    <div id="d5" >
+                        <div class="banner clearfix">
+                            <h3>yellow click&pick;</h3>
+                            <img src="./images/paz_250x110103131473.jpg">
+                            <div class= "link">
+                                <a class= "link" href="#">לפרטים&nbsp;נוספים</a>
+                            </div> 
+                        </div>                               
                     </div>
-                    <div id="d6" class="banner"> 
-                        <p>התחנות שלנו בדרך שלך</p>
-                        <img src="./images/Untitled-3058756287.jpg">
+                    <div id="d6" > 
+                        <div class="banner clearfix">
+                            <h3>התחנות שלנו בדרך שלך</h3>
+                            <div id="d61"><img src="./images/Untitled-3058756287.jpg"></div>
+                            <div id="d62" class="clearfix">
+                                <a  href="#"><span>צפון</span><img src="./images/read_more_yellow.png"></a>
+                                <a  href="#"><span>מרכז</span><img src="./images/read_more_yellow.png"></a>
+                                <a  href="#"><span>דרום</span><img src="./images/read_more_yellow.png"></a>
+                            </div>
+                        </div>
                     </div>
             </div>
         </div>
@@ -88,14 +145,15 @@
     <footer>
         <div class="page">
             <a href="http://www.facebook.com/YellowPaz"><img src="./images/fb_icon.png"></a>
-            <a href="#">עמוד הבית</a>
-            <a href="#">מחירונים</a>
-            <a href="#">קריירה</a>
-            <a href="#">תנאי שימוש</a>
-            <a href="#">נגישות</a>
-            <a href="#">מפת אתר</a>
-            <a href="#">צור קשר</a>
-            <a href="#">שטחי מסחר</a>
+            <span class="separator">|</span>
+            <a href="#">עמוד הבית</a><span class="separator"> |</span>
+            <a href="#">מחירונים</a><span class="separator"> |</span>
+            <a href="#">קריירה</a><span class="separator"> |</span>
+            <a href="#">תנאי שימוש</a><span class="separator">|</span>
+            <a href="#">נגישות</a><span class="separator"> |</span>
+            <a href="#">מפת אתר</a><span class="separator"> |</span>
+            <a href="#">צור קשר</a><span class="separator"> |</span>
+            <a href="#">שטחי מסחר</a><span class="separator"> |</span>
             <a id="arangmentlink" href="#">הסדר פשרה בתובענה הייצוגית בעניין הסדר פזומט</a>        
         </div>
     </footer>
