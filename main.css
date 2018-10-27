@@ -184,8 +184,8 @@ nav>ul>li>a{
         padding-left:2px;
     }
 
-    #footerInternal>ul>li>a:hover {
-        color: #005CA0;
+    #footerInternal>ul>li>a:hover, arangmentlink:hover{
+        color: #005CA0 !important;
         text-decoration: underline;
     }
 
@@ -320,7 +320,7 @@ nav>ul>li>a{
 
     }
     
-
+2
 #d61{
 float:left;
 }
@@ -350,14 +350,43 @@ padding: 3px;
 #d62>a>img{
     float:left;
     margin:0;
-    padding-top:4px;
+    padding-top:6px;
     padding-right:5px;
 
 }
 
+#contact1>div{
+    float:right;
+    width: 33%;
+    /* margin-top: 31px;
+    margin-bottom: 12px; */
+    z-index: -1;
+  
+}
 
+#middle{
+    background-image: url("./images/small_cube_bg.png");  
+    background-repeat: no-repeat;  
+}
 
 .left {
-    background-image: url("./images/small_cube_bg.png");      
+    background-image: url("./images/small_cube_bg.png");  
+    background-repeat: no-repeat;  
+    font-size: 13px;
+    padding-right:10px;
+
+}
+
+.left>h3{
+    margin-top:20px;
+
+}
+
+.left>p{
+    margin:0;
+}
+
+#title{
+    font-size: 15px;
 
 }
