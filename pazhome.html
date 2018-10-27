@@ -12,14 +12,16 @@
     <header>
         <div class="page">
             <nav>
-                <form id = "f1">
-                    <a href="#" type="submit" onclick="search()"><img src="./images/search_button.png"></a>
-                    <div><input type="search" id="pazsearch" placeholder="Search.."></div>
-                    <a href="#">English</a>
-                </form>                
+                <div id = "f1">
+                    <div id="dForm">
+                        <a id="aForm" href="#" type="submit" onclick="search()"><img src="./images/search_button.png"></a>
+                        <input type="text" id="pazsearch"  value="רשום מילת חיפוש">
+                    </div>
+                    <a ID="eng" href="#">English</a>
+                </div>                
                 <ul>
                     <li> <img id="pazlogo" src="./images/paz_logo.png"></li>
-                    <li><a href="#"><img src="./images/menu_home.png"></a></li>
+                    <li><a href="#"><img src="./images/menu_home_blue1.png"></a></li>
                     <li class="separtor"><span>|</span></li>
                     <li class="dropdown"><a href="#">אודות</a>
                         <div class="dropdown-content">
@@ -98,14 +100,24 @@
                             <div class="int-d">
                                 <h3>קמעונאות ומסחר</h3>
                                 <p>במסגרת חטיבת הקו"מ של פז מתבצעת הפעילות הקמעונאית, הנדל"נית, והשיווקית של הקבוצה, שמתאפיינת בחדשנות, יעילות ומובילות. החטיבה פועלת...</p>
-                                <a href="#">קרא&nbsp;עוד</a>
+                                <a  href="#"><span>קרא&nbsp;עוד</span><img src="./images/read_more_white.png"></a>
                             </div>
                     </div>
                     <div id="d2">
                             <img src="./images/midpic.jpg">
+                            <div class="int-d">
+                                <h3>זיקוק</h3>
+                                <p>פז זיקוק אשדוד (פז"א) היא חטיבת הזיקוק של קבוצת פז. החטיבה עוסקת בניהול פעילות בית הזיקוק באשדוד, הכוללת ייצור תזקיקי נפט...</p>
+                                <a  href="#"><span>קרא&nbsp;עוד</span><img src="./images/read_more_white.png"></a>
+                            </div>                            
                     </div>
                     <div id="d3">
                             <img src="./images/leftpic.jpg">
+                            <div class="int-d">
+                                <h3>תעשיות ושירותים</h3>
+                                <p>תחת חטיבת התעשיות והשירותים של פז פועלות מספר חברות בנות, המתמחות בפיתוח, ייצור ושיווק מוצרי לוואי של נפט, ומובילות את השוק...</p>
+                                <a  href="#"><span>קרא&nbsp;עוד</span><img src="./images/read_more_white.png"></a>
+                            </div>
                     </div>
             </div>
 
@@ -115,7 +127,7 @@
                             <h3>כרטיס אשראי שופרסל וכרטיס אשראי יש</h3>
                             <img src="./images/paz_250x110059890678.jpg">
                             <div class= "link">
-                                <a  href="#">לפרטים&nbsp;נוספים</a>
+                                <a class="d52" href="#"><img src="./images/read_more_yellow.png"><span>לפרטים&nbsp;נוספים</span></a>
                             </div> 
                         </div>                       
                     </div>
@@ -124,7 +136,7 @@
                             <h3>yellow click&pick;</h3>
                             <img src="./images/paz_250x110103131473.jpg">
                             <div class= "link">
-                                <a class= "link" href="#">לפרטים&nbsp;נוספים</a>
+                                <a class="d52" href="#"><img src="./images/read_more_yellow.png"><span>לפרטים&nbsp;נוספים</span></a>
                             </div> 
                         </div>                               
                     </div>
@@ -140,21 +152,24 @@
                         </div>
                     </div>
             </div>
+            <br><br><br><br>
         </div>
     </main>
     <footer>
-        <div class="page">
-            <a href="http://www.facebook.com/YellowPaz"><img src="./images/fb_icon.png"></a>
-            <span class="separator">|</span>
-            <a href="#">עמוד הבית</a><span class="separator"> |</span>
-            <a href="#">מחירונים</a><span class="separator"> |</span>
-            <a href="#">קריירה</a><span class="separator"> |</span>
-            <a href="#">תנאי שימוש</a><span class="separator">|</span>
-            <a href="#">נגישות</a><span class="separator"> |</span>
-            <a href="#">מפת אתר</a><span class="separator"> |</span>
-            <a href="#">צור קשר</a><span class="separator"> |</span>
-            <a href="#">שטחי מסחר</a><span class="separator"> |</span>
-            <a id="arangmentlink" href="#">הסדר פשרה בתובענה הייצוגית בעניין הסדר פזומט</a>        
+        <div id="footerInternal" class="page">
+            <ul>
+                <li><a href="http://www.facebook.com/YellowPaz"><img src="./images/fb_icon.png"></a></li>
+                <li><span class="separator">|</span></li>
+                <li><a href="./pazhome.html" title="קישור לעמוד הבית">עמוד הבית</a><span class="separator"> |</span></li>
+                <li><a href="#" title="קישור למחירונים">מחירונים</a><span class="separator"> |</span></li>
+                <li><a href="#" title="קישור לקריירה">קריירה</a><span class="separator"> |</span></li>
+                <li><a href="#" title="קישור לתנאי שימוש">תנאי שימוש</a><span class="separator">|</span></li>
+                <li><a href="#" title="קישור לנגישות">נגישות</a><span class="separator"> |</span></li>
+                <li><a href="#" title="קישור למפת אתר">מפת אתר</a><span class="separator"> |</span></li>
+                <li><a href="#" title="קישור לצור קשר">צור קשר</a><span class="separator"> |</span></li>
+                <li><a href="#" title="קישור לשטחי מסחר">שטחי מסחר</a><span class="separator"> |</span></li>
+                <li><a id="arangmentlink" href="#">הסדר פשרה בתובענה הייצוגית בעניין הסדר פזומט</a></li>
+            </ul>
         </div>
     </footer>
 
