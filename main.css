@@ -188,10 +188,10 @@ nav>ul>li>a{
         color: #005CA0;
         text-decoration: underline;
     }
+
     #footerInternal>ul>li>a>img{
-    
-    position: relative;
-    top:4px;
+        position: relative;
+        top:4px;
     }
 
         
@@ -202,7 +202,7 @@ nav>ul>li>a{
         margin-top: 31px;
         margin-bottom: 12px;
         z-index: -1;
-            
+        
     }
   
 
@@ -269,12 +269,21 @@ nav>ul>li>a{
 #sec2>div{
     float:right;
     width: 33%;
-    text-align: center;
-    background-image: url("./images/small_cube_bg.png");      
+    /* height: 212px; */
 
     }
 
-#sec2>div>p{
+#sec2>div>div{
+
+    background-image: url("./images/small_cube_bg.png");  
+    background-repeat: no-repeat;  
+    /* text-align: center; */
+    height: 218px;
+  
+}
+
+  
+#sec2>div>div>p{
     text-align: right;
 
 }
@@ -286,6 +295,22 @@ nav>ul>li>a{
     text-align: right;
 
 }
+.banner>h3{
+    font-size: 14px;
+    padding-top: 12px;
+}
+
+#d4>div>img, #d5>div>img {
+    padding-top: 6px;
+
+}
+
+.link {
+    padding-top: 12px;
+    direction:ltr;
+	text-align:left;   
+}
+
 
 .d52>span{
     font-size: 13px;
@@ -330,10 +355,7 @@ padding: 3px;
 
 }
 
-.link{
-    direction:ltr;
-	text-align:left;   
-}
+
 
 .left {
     background-image: url("./images/small_cube_bg.png");      
