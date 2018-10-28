@@ -93,17 +93,71 @@
         </div>
     </header>
     <main>
+        <div id="section1" class=" page clearfix">
+                <div class="right">
+                    <ul>
+                        <li>
+                            <a href="#"><span> &#9668; צור קשר</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cnt-middle">
+                    <div>
+                        <a id = "t1" href="#" title="קישור לעמוד הבית">עמוד הבית&#8827;</a>
+                        <span id="as1">צור קשר</span>
+                    </div>
+            
+                </div>
+                    <!-- <div class="cnt-left">                      
+                    </div> -->
+        </div>
+ 
+
         <div id="contact1" class="page">
-            <div id="right">
+            <div id="rdown" class="right">
 
             </div>
             <div id="middle">
-                <div id="title">
+                 <div id="title">
                     <h1>צור קשר</h1>
-
+                    <hr align="right" width="97%">
+                </div>
+                <div id = "divForm">
+                    <form id="f2">
+                        <h2>צור קשר</h2>
+                        <p id="ins1" >ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :</p>
+                        <p id="ins2">* השדות המסומנים בכוכבית (*) הינם שדות חובה</p>
+                            <div class="row">
+                                <label for="firstName" class="txt">* שם פרטי:</label>
+                                <input type="text" name="fname" id="firstName" onchange=" validateFNameSize()">
+                            </div>                        
+                            <div class="row">
+                                <label for="name" class="txt">* שם משפחה</label>
+                                <input type="text" name="lname" id="lastName" onchange=" validateLNameSize()">
+                            </div>
+                            <div class="row">
+                                <label for="phone" class="txt">* טלפון</label>
+                                <input type="text" name="phone" id="phone" onchange=" validatePhone()">
+                            </div>
+                            <div class="row">
+                                <label for="email" class="txt">* E-mail</label>
+                                <input type="email" name="email" id="email" onchange="ValidateEmail()">
+                            </div>
+                            <div class="row">
+                                <textarea id="comments" rows="8" cols="40" value="תוכן הפנייה" onchange="updateRangeValue()"></textarea>
+                            </div>
+                            <div id="subButton">                
+                                    <input type="button" value="שלח" onclick="formSubmitted()" id="bu">
+                                </div>
+                            <!-- <div>
+                                <a href="#"><button id="bu" onclick="subValidateFields()">שלח</button></a>
+                            </div> -->
+                    </form>
                 </div>
             </div>
             <div id="left">
+                    <div class="divSeparator"></div>
+
                     <div class = "left" id="left-up">
                         <h3>פרטי יצירת קשר</h3>
                         <p>פז חברת נפט בע"מ </p>
@@ -112,6 +166,7 @@
                         <p>טל. שירות לקוחות 1-800-774-774</p>
                         <p>פקס.09-8641714</p>
                     </div>
+                    <div class="divSeparator"></div>
                     <div class = "left" id="left-down">
                             <h3>עוד בפז</h3>
                             <p>ליצירת קשר עם דוברות פז</p>
