@@ -27,7 +27,7 @@ nav{
     direction:ltr;
     text-align:left;  
     position: absolute;
-    top:0;
+    top:10px;
     left:0; 
 }
 
@@ -36,20 +36,19 @@ nav{
     display: inline-block;
 } 
 
-/* #dform{
-    position: relative;
-} */
+
+
 #aform{
-    width: 10%;
+    width: 20%;
+    float:left;
 }
-/* #aform>img{
-    position: relative;
-    top:4px;
-} */
 
 #pazsearch{
-    width: 80%;
+    float:right;
+    width: 88%;
 }
+
+
 
 footer{
     position:fixed;
@@ -320,7 +319,7 @@ nav>ul>li>a{
 
     }
     
-2
+
 #d61{
 float:left;
 }
